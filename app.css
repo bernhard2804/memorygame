@@ -1,0 +1,92 @@
+
+#container{
+   height:99vh;
+   width:99vh;
+   border:1px solid black;
+   position: relative;
+}
+
+#board{
+    height:99%;
+    width:99%;
+    border:1px solid red;
+    position: relative;
+}
+
+.row{
+    width:99%;
+    height:19.6%;
+    border:1px solid green;
+    position:relative;
+}
+.card{
+    height:99%;
+    width:19.6%;
+    border:1px solid black;
+    position: relative;
+    display:inline-block;
+}
+
+.innerBox{
+    height:99%;
+    width:99%;
+    border:1px solid orange;
+    position: absolute;
+    color:black;
+}
+.front,.back{
+    height:99%;
+    width:99%;
+    border:1px solid black;
+    position: absolute;
+}
+
+.front{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.back{
+    background-color: rgba(0,0,0,1);
+}
+.visible div{
+    background-color:rgba(0,0,0,0);
+}
+
+
+.img1{
+    background-image: url('imgs/1.gif');
+}
+.img2{
+    background-image: url('imgs/2.gif');
+}
+.img3{
+    background-image: url('imgs/3.gif');
+}
+.img4{
+    background-image: url('imgs/4.gif');
+}
+.img5{
+    background-image: url('imgs/5.gif');
+}
+.img6{
+    background-image: url('imgs/6.gif');
+}
+.img7{
+    background-image: url('imgs/7.gif');
+}
+.img8{
+    background-image: url('imgs/8.gif');
+}
+.img9{
+    background-image: url('imgs/9.gif');
+}
+.img10{
+    background-image: url('imgs/10.gif');
+}
+.img11{
+    background-image: url('imgs/11.gif');
+}
+.img12{
+    background-image: url('imgs/12.gif');
+}
