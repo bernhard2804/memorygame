@@ -87,7 +87,7 @@ function createBoard(){
             let innerBox;
             if (l===numCards/2){
                 cardDiv=(createSubDiv('score', 'card'));
-                    innerBox=createSubDiv('','innerBox','','','Score');
+                    innerBox=createSubDiv('','innerBox','','','Enjoy the game!');
                     cardDiv.append(innerBox);               // cardDiv.id="score";
                 l++;
             } else {
